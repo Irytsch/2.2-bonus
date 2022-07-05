@@ -9,7 +9,7 @@ public class Main {
 
         int bonus = (refillAcc / 100); // Количество бонусных рублей
 
-        if (refillAcc >= 1000) {
+        if (refillAcc > 1000) {
             System.out.println("Количество бонусных рублей:");
             System.out.println(bonus);
             System.out.println("Итоговая сумма на счете клиента:");
